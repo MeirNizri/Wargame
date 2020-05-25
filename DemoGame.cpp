@@ -53,8 +53,8 @@ namespace WarGame {
 			return 0;
 		}
 
-		 DemoGame::~DemoGame() {
-			// delete board;
-		 }
+// 		 DemoGame::~DemoGame() {
+// 			// delete board;
+// 		 }
 
 }
