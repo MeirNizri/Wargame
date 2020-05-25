@@ -38,6 +38,7 @@ namespace WarGame {
 			if (!board.has_soldiers(2)) return 1;
 
 			board.move(2, {7,1}, Board::MoveDIR::Down);    // FootSoldier of player 2 moves forward and attacks from {7,1} to {6,1}.
+
 			if (!board.has_soldiers(1)) return 2;
 
 			board.move(1, {0,3}, Board::MoveDIR::Up);      // FootCommander of player 1 moves forward from {0,3} to {1,3}, and all soldiers of player 1 attack.
