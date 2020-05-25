@@ -54,7 +54,7 @@ namespace WarGame {
 		}
 
 		 DemoGame::~DemoGame() {
-			 delete board;
+			// delete board;
 		 }
 
 }
