@@ -8,11 +8,8 @@
  * @since  2020-05
  */
 
-#include <string>
-#include <vector>
-#include <stdexcept>
+#pragma once
 #include "Soldier.hpp"
-
 
 namespace WarGame {
 
@@ -47,8 +44,7 @@ class Board {
     // returns true iff the board contains one or more soldiers of the given player.
     bool has_soldiers(uint player_number) const;
     
-    ~Board()
-    {
+    ~Board() {
       for (auto row: board) {
 		 		for (auto soldier: row) {
 		 			if (soldier)
